@@ -1,20 +1,20 @@
-# Windows 10 theme for RIME (RIME 輸入法 Windows 10 主題樣式)
+# Windows 11 theme for RIME (RIME 輸入法 Windows 11 主題樣式)
 
-![Windows 10 theme image](image.png)
+![Windows 11 theme image](image.png)
 
 ## Install with Recipes (依配方安裝)
 
 執行 [東風破](https://github.com/rime/plum) 的 `rime-install` 命令安裝以下配方：
 
-  - **℞ `danvim/rime-theme-windows10`**
+  - **℞ `Rjlintkh/rime-theme-windows11`**
 
-    安裝 Windows 10 主題樣式
+    安裝 Windows 11 主題樣式
 
-  - **℞ `danvim/rime-theme-windows10:customize:frontend=weasel`**
+  - **℞ `Rjlintkh/rime-theme-windows11:customize:frontend=weasel`**
 
     指定「小狼毫」使用該主題樣式
 
-  - **℞ `danvim/rime-theme-windows10:customize:frontend=squirrel`**
+  - **℞ `Rjlintkh/rime-theme-windows11:customize:frontend=squirrel`**
 
     指定「鼠鬚管」使用該主題樣式
 
@@ -33,9 +33,9 @@ According to tests, Windows users must follow instructions listed under https://
 
     ~修改配設文件：`squirrel.custom.yaml` (Mac) or `weasel.custom.yaml` (Windows)。~
 
-3. ~Open [the Windows theme YAML](windows10_theme.yaml), and edit your config file:~
+3. ~Open [the Windows theme YAML](windows11_theme.yaml), and edit your config file:~
 
-    ~打開 [Windows 10 主題樣式 YAML](windows10_theme.yaml), 然後修改你的配設文件~
+    ~打開 [Windows 11 主題樣式 YAML](windows11_theme.yaml), 然後修改你的配設文件~
 
     1. ~If you already have the "patch" section (from `patch:` to the rest of the indented lines after the label), replace that with the entire theme.~
 
@@ -45,7 +45,7 @@ According to tests, Windows users must follow instructions listed under https://
 
         ```yaml
         patch:
-          style/color_scheme: windows10
+          style/color_scheme: windows11
         ```
 
     2. ~If you do not have the "patch" section, just paste the entire Win theme content after the end in your config file.~
